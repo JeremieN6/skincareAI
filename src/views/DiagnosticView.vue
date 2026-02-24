@@ -83,11 +83,11 @@ function resetDiagnostic() {
       <!-- Header -->
       <div class="text-center mb-10">
         <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Diagnostic de peau <span class="text-primary-500">IA</span>
+          Analysez <span class="text-primary-500">votre peau</span>
         </h1>
         <p class="mt-3 text-gray-600 max-w-xl mx-auto">
-          Uploadez une photo de votre peau et obtenez un diagnostic personnalisé
-          avec des conseils et des recommandations de produits adaptés.
+          Une photo suffit. Vous repartez avec un diagnostic, 
+          une routine et les produits qu'il vous faut, ce dont vous avez vraiment besoin.
         </p>
 
         <!-- Free diagnostics counter -->
@@ -163,7 +163,7 @@ function resetDiagnostic() {
           <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Button @click="resetDiagnostic" class="gap-2">
               <RefreshCw class="w-4 h-4" />
-              Faire un nouveau diagnostic
+              Faire une nouvelle analyse
             </Button>
             <RouterLink v-if="!authStore.user" to="/">
               <Button variant="outline">Créer un compte pour sauvegarder</Button>
@@ -177,9 +177,9 @@ function resetDiagnostic() {
         <div class="inline-flex items-start gap-2 bg-amber-50 border border-amber-200 rounded-xl px-5 py-3 max-w-2xl text-left">
           <AlertTriangle class="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" />
           <p class="text-xs text-amber-700 leading-relaxed">
-            <strong>Avertissement :</strong> Cet outil utilise l'intelligence artificielle pour fournir des
-            indications générales sur l'état de votre peau. Il ne constitue en aucun cas un diagnostic médical
-            et ne remplace pas la consultation d'un dermatologue ou professionnel de santé qualifié.
+              <strong>Note importante :</strong> SkinGlow est un outil d’aide à la compréhension de votre peau.
+              Ces résultats sont fournis à titre informatif et ne constituent pas un avis médical.
+              En cas de problème dermatologique persistant ou sévère, consultez un professionnel de santé.
           </p>
         </div>
       </div>

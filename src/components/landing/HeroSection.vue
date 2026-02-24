@@ -12,23 +12,24 @@ import Button from '@/components/ui/Button.vue'
       <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-skinbeige-100 rounded-full opacity-40 blur-3xl"></div>
     </div>
 
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-10">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
         <!-- Text content -->
         <div class="text-center lg:text-left">
           <div class="inline-flex items-center gap-2 bg-primary-50 text-primary-600 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
             <Sparkles class="w-4 h-4" />
-            <span>Diagnostic IA gratuit</span>
+            <span>Diagnostic gratuit • Sans inscription</span>
           </div>
 
           <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight text-balance">
-            Analysez votre peau avec
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-700">l'intelligence artificielle</span>
+            Enfin comprendre
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-700">votre peau.</span>
+            Vraiment.
           </h1>
 
           <p class="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed max-w-xl mx-auto lg:mx-0">
-            Uploadez une photo, notre IA identifie vos problèmes de peau et vous recommande
-            une routine personnalisée avec les meilleurs ingrédients actifs.
+            Uploadez une photo, obtenez un diagnostic personnalisé, une routine sur-mesure
+            et les produits qu'il vous faut vraiment. En moins d'une minute.
           </p>
 
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -68,8 +69,8 @@ import Button from '@/components/ui/Button.vue'
               <div class="w-20 h-20 bg-primary-100 rounded-2xl flex items-center justify-center mb-6">
                 <Sparkles class="w-10 h-10 text-primary-500" />
               </div>
-              <h3 class="text-lg font-bold text-gray-900 mb-2">Diagnostic IA</h3>
-              <p class="text-sm text-gray-500 text-center">Résultats en quelques secondes grâce à notre IA avancée</p>
+              <h3 class="text-lg font-bold text-gray-900 mb-2">Votre diagnostic</h3>
+              <p class="text-sm text-gray-500 text-center">Diagnostic, routine et produits. En moins d'une minute.</p>
 
               <!-- Floating badges -->
               <div class="absolute -top-3 -right-3 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
@@ -77,7 +78,7 @@ import Button from '@/components/ui/Button.vue'
               </div>
               <div class="absolute -bottom-3 -left-3 bg-white border border-gray-200 text-gray-700 text-xs font-medium px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
                 <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                IA en ligne
+                Disponible maintenant
               </div>
             </div>
           </div>

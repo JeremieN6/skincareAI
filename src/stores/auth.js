@@ -4,7 +4,7 @@ export const useAuthStore = defineStore('auth', {
   state: () => ({
     user: null,
     isPremium: false,
-    diagCount: parseInt(localStorage.getItem('skinai_diag_count') || '0')
+    diagCount: parseInt(localStorage.getItem('skinglow_diag_count') || '0')
   }),
   getters: {
     canDiagnose: (state) => state.isPremium || state.diagCount < 3,
@@ -13,7 +13,7 @@ export const useAuthStore = defineStore('auth', {
   actions: {
     incrementDiagCount() {
       this.diagCount++
-      localStorage.setItem('skinai_diag_count', this.diagCount.toString())
+      localStorage.setItem('skinglow_diag_count', this.diagCount.toString())
     }
   }
 })

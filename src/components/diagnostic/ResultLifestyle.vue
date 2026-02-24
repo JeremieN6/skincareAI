@@ -41,7 +41,7 @@ function getCategoryColor(categorie) {
       <div class="w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center">
         <Heart class="w-5 h-5 text-green-600" />
       </div>
-      <h3 class="text-xl font-bold text-gray-900">Conseils de vie</h3>
+      <h3 class="text-xl font-bold text-gray-900">Votre routine personnalisée</h3>
     </div>
 
     <div class="space-y-3">

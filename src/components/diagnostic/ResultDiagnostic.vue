@@ -26,7 +26,7 @@ function getSeverity(sev) {
       <div class="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
         <Microscope class="w-5 h-5 text-blue-600" />
       </div>
-      <h3 class="text-xl font-bold text-gray-900">Diagnostic dermatologique</h3>
+      <h3 class="text-xl font-bold text-gray-900">Ce qu’on observe sur votre peau</h3>
     </div>
 
     <!-- Résumé -->

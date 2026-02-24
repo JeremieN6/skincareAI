@@ -9,7 +9,7 @@ import ArticleCard from '@/components/blog/ArticleCard.vue'
       <!-- Header -->
       <div class="text-center mb-12">
         <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Blog <span class="text-primary-500">SkinAI</span>
+          Blog <span class="text-primary-500">SkinGlow</span>
         </h1>
         <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
           Conseils, guides et astuces pour prendre soin de votre peau au quotidien.

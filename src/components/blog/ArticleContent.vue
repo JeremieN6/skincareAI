@@ -64,7 +64,7 @@ function formatDate(dateStr) {
     <!-- CTA -->
     <div class="mt-12 bg-primary-50 rounded-2xl p-8 text-center">
       <h3 class="text-xl font-bold text-gray-900 mb-2">Envie de connaître l'état de votre peau ?</h3>
-      <p class="text-gray-600 mb-6">Essayez notre diagnostic IA gratuit et obtenez des conseils personnalisés.</p>
+      <p class="text-gray-600 mb-6">Essayez notre diagnostic gratuit et obtenez des conseils personnalisés.</p>
       <RouterLink
         to="/diagnostic"
         class="inline-flex items-center gap-2 bg-primary-500 text-white font-medium px-6 py-3 rounded-lg hover:bg-primary-600 transition-colors"

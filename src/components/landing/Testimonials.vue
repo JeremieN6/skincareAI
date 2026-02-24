@@ -3,31 +3,31 @@ import { Star } from 'lucide-vue-next'
 
 const testimonials = [
   {
-    name: 'Karim B.',
+    name: 'Karim, 28 ans',
     role: 'Utilisateur depuis 3 mois',
     rating: 5,
-    text: "J'avais des problèmes de poils incarnés depuis des années. SkinAI m'a recommandé les bons produits et une routine adaptée. En 2 mois, ma peau est transformée !",
+    text: "J'avais essayé des dizaines de produits sans résultat. En deux minutes, SkinGlow m'a expliqué que j'avais des poils incarnés et pas de l'acné. Le diagnostic a tout changé.",
     avatar: 'K'
   },
   {
-    name: 'Sophie M.',
+    name: 'Lucie, 34 ans',
     role: 'Utilisatrice Premium',
     rating: 5,
-    text: "Impressionnant ! L'IA a identifié exactement les mêmes problèmes que mon dermatologue. Les conseils sont concrets et faciles à suivre au quotidien.",
-    avatar: 'S'
+    text: "Le truc que j'ai adoré c'est qu'on m'a pas juste dit 'hydratez-vous'. J'ai eu des conseils précis sur les ingrédients à chercher selon MON type de peau. C'est ça la vraie valeur.",
+    avatar: 'L'
   },
   {
-    name: 'Thomas L.',
+    name: 'Thomas, 24 ans',
     role: 'Utilisateur depuis 1 mois',
-    rating: 4,
-    text: 'Super outil pour comprendre sa peau. Les recommandations de produits sont pertinentes, avec les bons ingrédients actifs. Je recommande vivement.',
+    rating: 5,
+    text: 'Honnêtenement je pensais que cétait du flan. Résultat : en 3 semaines avec les conseils SkinGlow, mes rougeurs ont clairement diminué. Je recommande.',
     avatar: 'T'
   },
   {
-    name: 'Amina R.',
+    name: 'Amina, 31 ans',
     role: 'Utilisatrice Premium',
     rating: 5,
-    text: "En tant que femme à la peau foncée, j'avais du mal à trouver des solutions pour l'hyperpigmentation. SkinAI m'a guidée efficacement avec des conseils adaptés.",
+    text: "Ce qui m'a convaincue c'est la section produits. Pas de marque sponsorisée, juste les ingrédients actifs et pourquoi ils aident. Enfin un outil transparent.",
     avatar: 'A'
   }
 ]
@@ -38,10 +38,10 @@ const testimonials = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Ils ont testé <span class="text-primary-500">SkinAI</span>
+          Ils ont enfin compris leur peau.
         </h2>
         <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          Découvrez les retours de nos utilisateurs satisfaits.
+          Ce qu’ils ont trouvé, grâce à une seule analyse.
         </p>
       </div>
 

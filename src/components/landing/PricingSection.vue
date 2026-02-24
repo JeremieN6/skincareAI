@@ -5,34 +5,32 @@ import { RouterLink } from 'vue-router'
 
 const plans = [
   {
-    name: 'Gratuit',
-    price: '0€',
+    name: 'Découverte',
+    price: 'Gratuit',
     period: '',
-    description: 'Idéal pour découvrir SkinAI',
+    description: 'Pour tester et voir par vous-même.',
     features: [
       '3 diagnostics par mois',
-      'Analyse complète de la peau',
-      'Conseils personnalisés',
-      'Recommandations de produits'
+      'Diagnostic complet (problèmes + routine + produits)',
+      'Accès au blog & guides'
     ],
-    cta: 'Commencer gratuitement',
+    cta: 'Essayer gratuitement',
     popular: false,
     route: '/diagnostic'
   },
   {
-    name: 'Premium',
+    name: 'Essentiel',
     price: '9,90€',
     period: '/mois',
-    description: 'Pour un suivi optimal de votre peau',
+    description: 'Pour ceux qui prennent vraiment soin de leur peau.',
     features: [
       'Diagnostics illimités',
-      'Historique des analyses',
-      'Suivi de progression',
-      'Conseils avancés et détaillés',
-      'Priorité de traitement',
-      'Support prioritaire'
+      'Historique de vos analyses',
+      'Suivi de l’évolution de votre peau',
+      'Questions de suivi approfondies',
+      'Accès prioritaire aux nouvelles fonctionnalités'
     ],
-    cta: 'Passer Premium',
+    cta: 'Passer à l’Essentiel',
     popular: true,
     route: '/diagnostic'
   }
@@ -44,10 +42,10 @@ const plans = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Nos offres
+          Commencez gratuitement.
         </h2>
         <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          Choisissez le plan qui correspond à vos besoins.
+          Pas besoin de carte bancaire pour découvrir ce que SkinGlow a à vous dire sur votre peau.
         </p>
       </div>
 
@@ -68,7 +66,7 @@ const plans = [
             class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary-500 text-white text-xs font-bold px-4 py-1.5 rounded-full flex items-center gap-1"
           >
             <Sparkles class="w-3 h-3" />
-            Populaire
+            Le plus populaire
           </div>
 
           <h3 class="text-xl font-bold text-gray-900">{{ plan.name }}</h3>

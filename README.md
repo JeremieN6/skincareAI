@@ -1,4 +1,4 @@
-# SkinAI — Diagnostic de peau par Intelligence Artificielle
+# SkinGlow — Diagnostic de peau par Intelligence Artificielle
 
 Application web permettant d'analyser sa peau via l'IA et d'obtenir un diagnostic personnalisé avec des conseils et recommandations de produits.
 
@@ -69,4 +69,4 @@ src/
 
 ## Avertissement médical
 
-SkinAI est un outil d'aide à l'analyse cutanée basé sur l'intelligence artificielle. Il ne constitue en aucun cas un diagnostic médical et ne remplace pas la consultation d'un dermatologue ou d'un professionnel de santé qualifié.
+SkinGlow est un outil d'aide à l'analyse cutanée basé sur l'intelligence artificielle. Il ne constitue en aucun cas un diagnostic médical et ne remplace pas la consultation d'un dermatologue ou d'un professionnel de santé qualifié.

@@ -13,11 +13,10 @@ import { Sparkles, Heart } from 'lucide-vue-next'
             <div class="w-9 h-9 bg-primary-500 rounded-xl flex items-center justify-center">
               <Sparkles class="w-5 h-5 text-white" />
             </div>
-            <span class="text-xl font-bold text-white">Skin<span class="text-primary-400">AI</span></span>
+            <span class="text-xl font-bold text-white">Skin<span class="text-primary-400">Glow</span></span>
           </RouterLink>
           <p class="text-sm text-gray-400 max-w-md leading-relaxed">
-            SkinAI utilise l'intelligence artificielle pour analyser votre peau et vous fournir
-            des conseils personnalisés. Notre technologie ne remplace pas un avis médical professionnel.
+            SkinGlow — Prenez soin de votre peau avec intention.
           </p>
         </div>
 
@@ -58,10 +57,8 @@ import { Sparkles, Heart } from 'lucide-vue-next'
       <div class="mt-8 pt-8 border-t border-gray-800">
         <div class="bg-gray-800/50 rounded-lg p-4 mb-6">
           <p class="text-xs text-gray-400 leading-relaxed">
-            <strong class="text-gray-300">⚕️ Avertissement médical :</strong> SkinAI est un outil d'aide à l'analyse
-            cutanée basé sur l'intelligence artificielle. Il ne constitue en aucun cas un diagnostic médical et ne
-            remplace pas la consultation d'un dermatologue ou d'un professionnel de santé qualifié. En cas de doute
-            ou de problème de peau persistant, consultez un médecin.
+            <strong class="text-gray-300">⚕️ Avertissement médical :</strong> SkinGlow ne fournit pas de conseils médicaux. Les diagnostics générés
+            sont à titre informatif uniquement. Consultez un dermatologue pour tout problème de peau persistant.
           </p>
         </div>
 
@@ -78,10 +75,10 @@ import { Sparkles, Heart } from 'lucide-vue-next'
       <!-- Copyright -->
       <div class="mt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p class="text-xs text-gray-500">
-          © {{ new Date().getFullYear() }} SkinAI. Tous droits réservés.
+          © {{ new Date().getFullYear() }} SkinGlow. Tous droits réservés.
         </p>
         <p class="text-xs text-gray-500 flex items-center gap-1">
-          Fait avec <Heart class="w-3 h-3 text-red-400" /> et de l'IA
+          Fait avec <Heart class="w-3 h-3 text-red-400" /> et de la passion
         </p>
       </div>
     </div>

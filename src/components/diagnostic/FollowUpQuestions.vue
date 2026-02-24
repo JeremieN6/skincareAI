@@ -33,7 +33,7 @@ const allAnswered = () => answers.value.every((a) => a.trim().length > 0)
         </div>
         <div>
           <h3 class="text-lg font-bold text-gray-900">Questions complémentaires</h3>
-          <p class="text-sm text-gray-600">L'IA a besoin de plus d'informations pour affiner votre diagnostic.</p>
+          <p class="text-sm text-gray-600">Pour affiner votre diagnostic, quelques questions complémentaires.</p>
         </div>
       </div>
 

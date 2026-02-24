@@ -8,8 +8,9 @@ const isMenuOpen = ref(false)
 
 const navLinks = [
   { name: 'Accueil', path: '/' },
-  { name: 'Diagnostic', path: '/diagnostic' },
-  { name: 'Blog', path: '/blog' }
+  { name: 'Analyser ma peau', path: '/diagnostic' },
+  { name: 'Blog', path: '/blog' },
+  { name: 'Tarifs', path: '/#tarifs' }
 ]
 </script>
 
@@ -22,7 +23,7 @@ const navLinks = [
           <div class="w-9 h-9 bg-primary-500 rounded-xl flex items-center justify-center group-hover:bg-primary-600 transition-colors">
             <Sparkles class="w-5 h-5 text-white" />
           </div>
-          <span class="text-xl font-bold text-gray-900">Skin<span class="text-primary-500">AI</span></span>
+          <span class="text-xl font-bold text-gray-900">Skin<span class="text-primary-500">Glow</span></span>
         </RouterLink>
 
         <!-- Desktop Nav -->

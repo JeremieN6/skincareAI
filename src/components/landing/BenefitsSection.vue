@@ -4,26 +4,26 @@ import { Microscope, Heart, ShoppingBag, Zap } from 'lucide-vue-next'
 const benefits = [
   {
     icon: Microscope,
-    title: 'Diagnostic précis',
-    description: 'Notre IA analyse votre peau en détail et identifie les problèmes cutanés avec précision.',
+    title: 'Un diagnostic honnête',
+    description: 'Identifiez enfin ce qui se passe vraiment sur votre peau : acné, poils incarnés, hyperpigmentation, excès de sébum... Chaque problème expliqué clairement, sans jargon.',
     color: 'bg-blue-50 text-blue-500'
   },
   {
     icon: Heart,
-    title: 'Conseils personnalisés',
-    description: 'Des recommandations adaptées à votre type de peau, vos habitudes et votre mode de vie.',
+    title: 'Une routine qui vous ressemble',
+    description: 'Des gestes concrets, adaptés à votre peau, votre mode de vie et vos habitudes. Pas un copier-coller d’article de blog.',
     color: 'bg-green-50 text-green-500'
   },
   {
     icon: ShoppingBag,
-    title: 'Produits adaptés',
-    description: 'Les meilleurs ingrédients actifs recommandés pour chaque problème identifié.',
+    title: 'Les bons ingrédients, pas les plus chers',
+    description: 'On vous dit exactement quels actifs rechercher et pourquoi — sans vous pousser vers une marque en particulier.',
     color: 'bg-orange-50 text-orange-500'
   },
   {
     icon: Zap,
-    title: 'Rapide et gratuit',
-    description: 'Obtenez votre diagnostic complet en quelques secondes, sans inscription obligatoire.',
+    title: 'Moins d’une minute, top chrono',
+    description: 'Une photo suffit. Votre analyse complète est prête avant que vous ayez fini votre café.',
     color: 'bg-purple-50 text-purple-500'
   }
 ]
@@ -34,10 +34,10 @@ const benefits = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Pourquoi choisir <span class="text-primary-500">SkinAI</span> ?
+          Tout ce dont votre peau a besoin, au même endroit.
         </h2>
         <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          Une technologie de pointe au service de votre peau, accessible à tous.
+          Diagnostic, routine personnalisée, ingrédients adaptés. Structuré et actionnable.
         </p>
       </div>
 

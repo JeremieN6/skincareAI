@@ -27,7 +27,7 @@ function getMoment(moment) {
       <div class="w-10 h-10 bg-orange-100 rounded-xl flex items-center justify-center">
         <ShoppingBag class="w-5 h-5 text-orange-600" />
       </div>
-      <h3 class="text-xl font-bold text-gray-900">Produits recommandés</h3>
+      <h3 class="text-xl font-bold text-gray-900">Les produits qu’il vous faut</h3>
     </div>
 
     <div class="grid sm:grid-cols-2 gap-4">

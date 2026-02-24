@@ -4,28 +4,28 @@ import { ChevronDown } from 'lucide-vue-next'
 
 const faqs = [
   {
-    question: 'SkinAI peut-il remplacer une consultation chez le dermatologue ?',
-    answer: 'Non. SkinAI est un outil d\'aide à l\'analyse cutanée basé sur l\'intelligence artificielle. Il fournit des indications et des conseils généraux, mais ne remplace en aucun cas l\'avis d\'un dermatologue ou d\'un professionnel de santé qualifié. En cas de problème persistant ou sévère, consultez un médecin.'
+    question: 'Est-ce que SkinGlow remplace un dermatologue ?',
+    answer: 'Non, et on ne prétend pas le contraire. SkinGlow vous aide à mieux comprendre votre peau pour poser les bons gestes au quotidien. Si vous avez un problème sérieux ou persistant, consultez toujours un dermatologue.'
   },
   {
-    question: 'Mes photos sont-elles conservées ou partagées ?',
-    answer: 'Non. Vos photos sont analysées en temps réel et ne sont jamais stockées sur nos serveurs. Elles sont envoyées de manière sécurisée à notre IA pour analyse, puis immédiatement supprimées après traitement. Votre confidentialité est notre priorité.'
+    question: 'Comment fonctionne l’analyse ?',
+    answer: 'Vos photos sont analysées par un système expert entraîné à identifier les affections cutanées courantes. Le résultat combine un regard dermatologique, des recommandations cosmétologiques et des conseils de routine adaptés à ce qu’on observe.'
   },
   {
-    question: 'Comment prendre de bonnes photos pour un diagnostic optimal ?',
-    answer: 'Pour obtenir les meilleurs résultats, prenez vos photos en lumière naturelle, sans flash. Assurez-vous que la zone de peau est bien visible et nette. Évitez les photos trop sombres, floues ou prises de trop loin. Si les photos ne sont pas suffisantes, l\'IA vous posera des questions complémentaires.'
+    question: 'Mes photos sont-elles stockées quelque part ?',
+    answer: 'Non. Vos photos sont transmises pour analyse puis immédiatement supprimées. Elles ne sont jamais stockées sur nos serveurs ni utilisées à d’autres fins.'
   },
   {
-    question: 'Combien de diagnostics gratuits ai-je droit ?',
-    answer: 'Vous bénéficiez de 3 diagnostics gratuits par mois, sans inscription. Pour un accès illimité ainsi que des fonctionnalités avancées comme l\'historique et le suivi de progression, vous pouvez passer au plan Premium à 9,90€/mois.'
+    question: 'Ça marche pour tous les types de peau ?',
+    answer: 'Oui. SkinGlow est conçu pour fonctionner sur tous les phototypes et types de peau — peaux claires, métissées, foncées, grasses, sèches, mixtes.'
   },
   {
-    question: 'L\'IA est-elle fiable pour tous les types de peau ?',
-    answer: 'Notre IA a été entraînée sur une grande diversité de types de peau (claires, mates, foncées) et de problématiques cutanées. Cependant, comme tout outil technologique, elle peut avoir des limites selon la qualité des photos et la complexité du problème. Les résultats sont fournis à titre indicatif.'
+    question: 'Que se passe-t-il si la photo n’est pas assez nette ?',
+    answer: 'Si l’analyse n’est pas possible avec les photos fournies, on vous pose quelques questions complémentaires pour affiner le diagnostic sans photo supplémentaire.'
   },
   {
-    question: 'Les produits recommandés sont-ils sponsorisés ?',
-    answer: 'Non. SkinAI recommande des types de produits et des ingrédients actifs génériques, sans citer de marques spécifiques. Nos recommandations sont basées uniquement sur l\'efficacité prouvée des ingrédients pour les problèmes identifiés, sans aucun partenariat commercial.'
+    question: 'Puis-je annuler mon abonnement à tout moment ?',
+    answer: 'Oui, sans engagement, sans frais de résiliation, sans prise de tête.'
   }
 ]
 
@@ -41,10 +41,10 @@ const toggle = (index) => {
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Questions fréquentes
+          On répond à vos questions.
         </h2>
         <p class="mt-4 text-lg text-gray-600">
-          Tout ce que vous devez savoir sur SkinAI.
+          Tout ce que vous voulez savoir avant de commencer.
         </p>
       </div>
 

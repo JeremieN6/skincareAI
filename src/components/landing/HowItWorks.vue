@@ -5,22 +5,22 @@ const steps = [
   {
     icon: Upload,
     step: '01',
-    title: 'Uploadez vos photos',
-    description: 'Prenez 1 à 3 photos de votre peau en lumière naturelle et uploadez-les sur notre plateforme sécurisée.',
+    title: 'Prenez une photo de votre peau',
+    description: 'Pas besoin d’équipement spécial. Votre smartphone suffit. 1 à 3 photos pour une analyse plus complète.',
     color: 'from-blue-500 to-blue-600'
   },
   {
     icon: Brain,
     step: '02',
-    title: "L'IA analyse votre peau",
-    description: 'Notre intelligence artificielle examine la texture, les imperfections, les rougeurs et le grain de votre peau.',
+    title: 'On analyse, vous attendez 30 secondes',
+    description: 'Des algorithmes entraînés sur des milliers de cas dermatologiques passent votre peau au crible.',
     color: 'from-primary-500 to-primary-600'
   },
   {
     icon: FileCheck,
     step: '03',
-    title: 'Obtenez votre diagnostic',
-    description: 'Recevez un diagnostic complet avec des conseils personnalisés et des recommandations de produits adaptés.',
+    title: 'Votre analyse complète arrive',
+    description: 'Diagnostic, routine personnalisée, produits recommandés. Tout est là, structuré et actionnable.',
     color: 'from-green-500 to-green-600'
   }
 ]
@@ -31,10 +31,10 @@ const steps = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Comment ça marche ?
+          Simple comme une photo.
         </h2>
         <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          Un diagnostic complet en 3 étapes simples, en moins d'une minute.
+          Trois étapes. Moins d’une minute. Une analyse complète.
         </p>
       </div>
 

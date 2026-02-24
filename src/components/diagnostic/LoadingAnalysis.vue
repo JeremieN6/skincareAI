@@ -3,12 +3,12 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import { Sparkles } from 'lucide-vue-next'
 
 const messages = [
-  "🔬 L'IA analyse votre peau...",
-  "🔍 Identification des zones sensibles...",
-  "📊 Évaluation de la texture et du grain de peau...",
-  "💡 Détection des imperfections...",
-  "🧴 Génération de vos recommandations...",
-  "✨ Préparation de votre diagnostic personnalisé..."
+  'Observation de la texture et du grain de peau...',
+  'Identification des zones sensibles...',
+  'Analyse des imperfections visibles...',
+  'Préparation de votre routine personnalisée...',
+  'Sélection des ingrédients adaptés...',
+  'Finalisation de votre diagnostic...'
 ]
 
 const currentMessageIndex = ref(0)
@@ -69,7 +69,7 @@ onUnmounted(() => {
     </div>
 
     <p class="mt-4 text-sm text-gray-500">
-      Veuillez patienter, l'analyse est en cours...
+      Votre analyse arrive dans quelques secondes...
     </p>
   </div>
 </template>

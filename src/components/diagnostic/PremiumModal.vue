@@ -6,11 +6,10 @@ const emit = defineEmits(['close'])
 
 const features = [
   'Diagnostics illimités',
-  'Historique complet de vos analyses',
-  'Suivi de progression de votre peau',
-  'Conseils avancés et détaillés',
-  'Priorité de traitement IA',
-  'Support prioritaire par email'
+  'Historique de vos analyses',
+  'Suivi de l’évolution de votre peau',
+  'Questions de suivi approfondies',
+  'Accès prioritaire aux nouvelles fonctionnalités'
 ]
 </script>
 
@@ -34,10 +33,10 @@ const features = [
           <div class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
             <Crown class="w-8 h-8 text-primary-500" />
           </div>
-          <h3 class="text-2xl font-bold text-gray-900">Passez à Premium</h3>
+          <h3 class="text-2xl font-bold text-gray-900">Passez à l’Essentiel</h3>
           <p class="text-gray-600 mt-2">
             Vous avez utilisé vos 3 diagnostics gratuits ce mois-ci.
-            Passez à Premium pour un accès illimité !
+            Passez à l’Essentiel pour un accès illimité.
           </p>
         </div>
 
@@ -63,7 +62,7 @@ const features = [
 
         <Button size="lg" class="w-full gap-2">
           <Sparkles class="w-4 h-4" />
-          Devenir Premium
+          Passer à l’Essentiel
         </Button>
 
         <p class="text-xs text-gray-400 text-center mt-3">
