@@ -1,18 +1,23 @@
 <script setup>
 import { ref } from 'vue'
-import { RouterLink } from 'vue-router'
+import { RouterLink, useRoute } from 'vue-router'
 import { Menu, X, Sparkles } from 'lucide-vue-next'
 import Button from '@/components/ui/Button.vue'
 
 const isMenuOpen = ref(false)
+const route = useRoute()
 
 const navLinks = [
   { name: 'Accueil', path: '/' },
   { name: 'Analyser ma peau', path: '/diagnostic' },
   { name: 'Tarifs', path: '/#tarifs' },
   { name: 'Blog', path: '/blog' }
-
 ]
+
+function isActive(link) {
+  if (link.path.includes('#')) return false
+  return route.path === link.path
+}
 </script>
 
 <template>
@@ -34,7 +39,7 @@ const navLinks = [
             :key="link.path"
             :to="link.path"
             class="text-sm font-medium text-gray-600 hover:text-primary-500 transition-colors"
-            active-class="text-primary-500"
+            :class="{ 'text-primary-500': isActive(link) }"
           >
             {{ link.name }}
           </RouterLink>
@@ -74,7 +79,7 @@ const navLinks = [
               :key="link.path"
               :to="link.path"
               class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary-500 transition-colors"
-              active-class="bg-primary-50 text-primary-500"
+              :class="{ 'bg-primary-50 text-primary-500': isActive(link) }"
               @click="isMenuOpen = false"
             >
               {{ link.name }}
