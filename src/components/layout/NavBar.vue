@@ -9,8 +9,9 @@ const isMenuOpen = ref(false)
 const navLinks = [
   { name: 'Accueil', path: '/' },
   { name: 'Analyser ma peau', path: '/diagnostic' },
-  { name: 'Blog', path: '/blog' },
-  { name: 'Tarifs', path: '/#tarifs' }
+  { name: 'Tarifs', path: '/#tarifs' },
+  { name: 'Blog', path: '/blog' }
+
 ]
 </script>
 
