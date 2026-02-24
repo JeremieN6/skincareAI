@@ -12,7 +12,7 @@ import Button from '@/components/ui/Button.vue'
       <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-skinbeige-100 rounded-full opacity-40 blur-3xl"></div>
     </div>
 
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-10">
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-12">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
         <!-- Text content -->
         <div class="text-center lg:text-left">

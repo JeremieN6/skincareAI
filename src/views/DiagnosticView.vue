@@ -83,7 +83,7 @@ function resetDiagnostic() {
       <!-- Header -->
       <div class="text-center mb-10">
         <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Analysez <span class="text-primary-500">votre peau</span>
+          Analyser <span class="text-primary-500">ma peau</span>
         </h1>
         <p class="mt-3 text-gray-600 max-w-xl mx-auto">
           Une photo suffit. Vous repartez avec un diagnostic, 

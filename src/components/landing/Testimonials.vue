@@ -38,7 +38,7 @@ const testimonials = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Ils ont enfin compris leur peau.
+          Ils ont <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-700">enfin compris</span> leur peau.
         </h2>
         <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
           Ce qu’ils ont trouvé, grâce à une seule analyse.

@@ -34,7 +34,7 @@ const benefits = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
-          Tout ce dont votre peau a besoin, au même endroit.
+          Tout ce dont votre peau a <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-700">besoin</span>, au <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-700">même endroit</span>.
         </h2>
         <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
           Diagnostic, routine personnalisée, ingrédients adaptés. Structuré et actionnable.
